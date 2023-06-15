@@ -3,9 +3,6 @@ import Notiflix from 'notiflix';
 import { fetchBreeds } from './cat-api';
 import { fetchCatByBreed } from './cat-api';
 
-const baseUrl = `https://api.thecatapi.com/v1/breeds`;
-const apiKey =
-  'live_rXLydfuFknLtFmsT7yOyvmJmKPAAJhlYuZOnndTITcIciYTjG3C0CtUEiJT8eQiq';
 const searchForm = document.querySelector('.breed-select');
 const showInfo = document.querySelector('.cat-info');
 const loader = document.querySelector('.loader');
